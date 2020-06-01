@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.projectcard{
+  width: 18rem;
+  background-color:rgb(132, 132, 230);
+  box-shadow: 5px 10px #888888;
+}
+
+.portfoliocontainer{
+  display: flex;
+  float: left;
+}
