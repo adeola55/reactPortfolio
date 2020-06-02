@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: bisque;
 }
 
 code {
@@ -13,24 +14,27 @@ code {
 }
 
 .projectcard{
-  width: 18rem;
+  width: 45%;
   background-color:rgb(132, 132, 230);
   box-shadow: 5px 10px #888888;
+  margin: 1%;
+  padding: 1%;
 }
 
 .portfoliocontainer{
   display: flex;
   float: left;
+  width: 90%;
 }
 
 .contact{
   clear: both;
 }
 
-.info{
+/* .info{
   width: 400px;
   height: 400px;
-}
+} */
 
 .navbar{
   position: fixed;
@@ -47,7 +51,9 @@ code {
   background-color: rgb(250, 225, 229);
 }
 
-#cont{
-  margin-bottom: 25%;
-  margin-left: 25%;
+.container{
+  padding: 1%;
+  margin-left: 10%;
+  margin-bottom: 5%;
+  margin-top: 5%;
 }

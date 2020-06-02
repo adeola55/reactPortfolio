@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from "react-router-dom";
+// import {Link} from "react-router-dom";
 function Header(){
   return (<div className ="cardHeader">
     <nav className="navbar navbar-expand-lg">
@@ -11,7 +11,7 @@ function Header(){
     <div className="navbar-nav">
       <a className="nav-item nav-link active" href="#aboutme">About Me <span class="sr-only">(current)</span></a>
       <a className="nav-item nav-link" href="#port">Portfolio</a>
-      <a className="nav-item nav-link" href="#cont">Contact</a>
+      <a className="nav-item nav-link" href="#contact">Contact</a>
     </div>
   </div>
 </nav>

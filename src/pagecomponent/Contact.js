@@ -1,8 +1,8 @@
 import React from "react";
 class Contact extends React.Component{
   render(){
-    return (<div className="container">
-        <h1 id= "cont" className= "info">Contact</h1>
+    return (<div className="container" id= "contact">
+        <h1 className= "info">Contact</h1>
         <table className="table table-hover table-dark">
   <thead>
     <tr>

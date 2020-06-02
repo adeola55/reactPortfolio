@@ -27,30 +27,6 @@ class Projectdetail extends React.Component
   github: "https://github.com/adeola55/homework04",
   deployed: "https://adeola55.github.io/homework04/",
   description: "a history quiz of america. timer reduces by 5 when user gets the answer wrong"
-},
-{
-  name: "Work Day Scheduler",
-  github: "https://github.com/adeola55/homework05",
-  deployed: "https://adeola55.github.io/homework05/",
-  description: "Helps user plan day activities and its color quoted to help know what time of the day it is"
-},
-{
-name: "Updated Portoflio",
-github: "https://github.com/adeola55/updated-portfolio",
-deployed: "https://adeola55.github.io/updated-portfolio/",
-description: "an updated portfolio with links to the deployed URL and github page"
-},
-{
-name: "Team Profile Generator",
-github: "https://github.com/adeola55/teamprofilegenerator",
-deployed: "",
-description: "Its a backend app that helps users to document profiles with the users input. it runs locally on users machine"
-},
-{
-name: "Fitness Tracker",
-github: "https://github.com/adeola55/fitnessTracker",
-deployed: "https://polar-ocean-25753.herokuapp.com/",
-description: "App is a fitness app that helps document users exercise and progress."
 }
 ]};
 render(){

@@ -2,12 +2,7 @@ import React from "react";
 class Index extends React.Component{
   render(){
     return (<div id="aboutme" className="container">
-      <div className="ade">
-        <div className="col-md-12">
-        <h1 className= "info">About Me</h1>
-        </div>
-      </div>
-        
+      <h1 id= "cont" className= "info">About Me</h1>
         <div className= "row">
           <div className="col-md-4">
         <img className= "img-fluid" src="/assets/images/ade.jpg" alt="portfolioimg" height="400" width="400"/>
