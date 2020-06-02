@@ -14,13 +14,13 @@ function App() {
      <Header/>
      <Index />
      <Portfolio />
-     <Contact />
-     <Switch>
+    <Contact />
+    {/* <Switch>
       <Route exact="/" component ={Index}/>
       <Route exact="/Index" component={Index} />
       <Route exact="/Portfolio" component={Portfolio} />
       <Route exact="/Contact" component={Contact} />
-      </Switch>
+      </Switch> */}
       <Footer/>
      </BrowserRouter>
     

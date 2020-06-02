@@ -1,8 +1,9 @@
 import React from "react";
 class Contact extends React.Component{
   render(){
-    return (<div>
-        <h1>Contact</h1>
+    return (<div className="contact">vbbvbv
+    hbhbnmb
+        <h1 id= "cont" className= "info">Contact</h1>
     </div>)
   }
 }

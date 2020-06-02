@@ -30,15 +30,16 @@ class Projectdetail extends React.Component
 }
 ]};
 render(){
- return(<div>
+ return(<div className ="cardDetails">
    <h3>Checkout my Projects</h3>
    <div className ="portfoliocontainer">
-  {this.state.projects.map(proje => (
+  {this.state.projects.map((proje,index) => (
     <Project 
        name= {proje.name}
        github= {proje.github}
        deployed= {proje.deployed}
        description= {proje.description}
+       key= {index}
         />
   ))}
   </div>
