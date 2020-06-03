@@ -28,6 +28,11 @@ class Contact extends React.Component{
       <td colspan="2">Snapchat</td>
       <td>@iam_porto</td>
     </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td colspan="2">Linkedin</td>
+      <td>Adeola Afariogun</td>
+    </tr>
   </tbody>
 </table>
     </div>)
