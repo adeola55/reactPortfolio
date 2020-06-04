@@ -1,6 +1,7 @@
 import React from "react";
 function Project(props){
-  return (<div className="card projectcard">
+  return (
+  <div className="card projectcard">
   <div class="card-body">
     <h5 class="card-title"> {props.name}</h5>
     <h6 class="card-subtitle mb-2 text-muted">UCB Coding Bootcamp</h6>
